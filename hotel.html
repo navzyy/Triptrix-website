@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Worldwide Location.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script language="JavaScript" type="text/JavaScript">
+        function myFunction() {
+            alert("Available")
+            
+        }
+        </script>
+    <div class="hotels">
+        <h2><i class="fas fa-hotel"></i> Hotels</h2>
+    </div>
+    <div class="container-4">
+        <section class="book">
+            <div class="container-5">
+                <div class="text">
+                    <h1>Book Your Rooms</h1>
+                </div>
+                <div class="form">
+                    <form class="grid">
+
+                        <select name="hotel" id="hotel">
+                            <option value="hotel">Select your Hotel</option>
+                            <optgroup label="Colombo">
+                                <option value="Shangri-La">Shangri-La</option>
+                                <option value="Taj Samudra">Taj Samudra</option>
+                            </optgroup>
+                            <optgroup label="Kandy">
+                                <option value="Cinnamon Citadel">Cinnamon Citadel</option>
+                                <option value="The Kandyan Villa">The Kandyan Villa</option>
+                            </optgroup>
+                            <optgroup label="Galle">
+                                <option value="Deltora Villa">Deltora Villa</option>
+                                <option value="Hotel J">Hotel J</option>
+                            </optgroup>
+                            <optgroup label="Dambulla">
+                                <option value="Grand Kalundewa">Grand Kalundewa</option>
+                                <option value="Waterfront Sigiriya">Waterfront Sigiriya</option>
+                            </optgroup>
+                        </select>
+                        <input type="text" placeholder="Arrival Date" onfocus="(this.type='date')">
+                        <input type="text" placeholder="Departure Date" onfocus="(this.type='date')">
+                        <input type="number" placeholder="Adults">
+                        <input type="number" placeholder="Children">
+                        <input type="submit" onclick="myFunction()" value="Check Availability">
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="box2">
+            <img src="kandyan.jpeg" />
+            <h2>The Kandyan Villa</h2><br />
+
+
+
+            <ol>
+                <li><b>Location:</b> Kandy</li>
+                <li><b>Price(per day/pp)</b>
+                    <ol>
+                        <li>Room only: Rs.8500</li>
+                        <li>BB: Rs.10500</li>
+                        <li>Full Board: Rs.15000</li>
+                    </ol>
+                </li>
+                <li><b>Meal:</b> Buffect</li>
+            </ol>
+            <button type="submit" onclick="location.href='https://www.booking.com/'" class="btn">Book Now</button>
+        </div>
+        <div class="box2">
+
+            <h2>The Grand Kalundewa</h2><br />
+
+
+
+            <ol>
+                <li><b>Location:</b> Dambulla</li>
+                <li><b>Price(per day/pp)</b>
+                    <ol>
+                        <li>Room only: Rs.7000</li><br />
+                        <li>BB: Rs.9000</li>
+                        <li>Full Board: Rs.12000</li>
+                    </ol>
+                </li>
+                <li><b>Meal:</b> Ala Carte Menu</li>
+            </ol>
+            <img src="grand.jpeg" />
+            <button type="submit" onclick="location.href='https://www.booking.com/'" class="btn">Book Now</button>
+        </div>
+        <div class="box2">
+            <img src="deltora.jpeg" />
+            <h2>Deltora Villa</h2><br />
+
+
+
+            <ol>
+                <li><b>Location: Galle</b></li>
+                <li><b>Price(per day/pp)</b>
+                    <ol>
+                        <li>Room only: Rs.8000</li>
+                        <li>BB: Rs.9500</li>
+                        <li>Full Board: Rs.13000</li>
+                    </ol>
+                </li>
+                <li><b>Meal: Buffect</b></li>
+            </ol>
+            <button type="submit" onclick="location.href='https://www.booking.com/'" class="btn">Book Now</button>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p>&copy;2024.TripTrix Sri Lanka. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
